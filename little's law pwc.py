@@ -69,7 +69,7 @@ plt.xlabel("Inventory")
 plt.ylabel("Throughput rate (unit/hour)")
 plt.title("WIP-Inventroy Relationship")
 plt.plot(x1,y1,label = "pwc",marker='d')
-plt.plot(x2,y2,label = "no variation",marker='o')
+plt.plot(x2,y2,label = "best case",marker='o')
 plt.legend()
 
 
